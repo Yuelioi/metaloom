@@ -39,17 +39,19 @@
 
 ## 🖥️ 项目结构
 
+```
 metaloom/
-├── frontend/ # Vue 3 前端项目
+├── frontend/src/ # Vue 3 前端项目
 │ ├── components/
 │ ├── views/
 │ └── ...
 ├── services/ # Go 后端（Wails）
-│ ├── assert_handler/
-│ ├── app/
+│ ├── assert_handler
+│ ├── app
 │ └── ...
 ├── cache/ # 缩略图缓存目录
 └── README.md
+```
 
 ## 🚀 快速开始
 
@@ -71,3 +73,7 @@ go install -v github.com/wailsapp/wails/v3/cmd/wails3@latest
 ```bash
 wails3 dev
 ```
+
+## 🧩 参考
+
+- [Wails v3](https://v3alpha.wails.io/getting-started/installation/)
